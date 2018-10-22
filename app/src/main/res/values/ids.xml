@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_date" type="id"/>
+    <item name="tv_homeTeam" type="id"/>
+    <item name="tv_homeScore" type="id"/>
+    <item name="tv_vs" type="id"/>
+    <item name="tv_awayScore" type="id"/>
+    <item name="tv_awayTeam" type="id"/>
+    <item name="spinner" type="id"/>
+    <item name="listMatch" type="id"/>
+</resources>
