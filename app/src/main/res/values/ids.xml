@@ -8,4 +8,5 @@
     <item name="tv_awayTeam" type="id"/>
     <item name="spinner" type="id"/>
     <item name="listMatch" type="id"/>
+    <item name="list_fav" type="id"/>
 </resources>
