@@ -45,12 +45,12 @@ class PrevUI : AnkoComponent<ViewGroup> {
                     relativeLayout {
                         textView("Manchester United"){
                             id = R.id.tv_homeTeam
-                            textSize = 14f
+                            textSize = 16f
                             textColor = Color.BLACK
                             gravity = Gravity.END
                         }.lparams(width = matchParent, height = wrapContent) {
                             leftOf(R.id.tv_homeScore)
-                            margin = dip(10)
+                            margin = dip(15)
                         }
                         textView("2") {
                             id = R.id.tv_homeScore

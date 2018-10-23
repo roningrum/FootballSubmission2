@@ -26,6 +26,7 @@ class EventDetailActivity : AppCompatActivity(), DetailEventView {
     private lateinit var idEvent: String
     private var idHome = ""
     private var idAway = ""
+    private lateinit var events: Events
     private lateinit var progressBar: ProgressBar
     private lateinit var swipeRefresh: SwipeRefreshLayout
     val client =  OkHttpClient()
@@ -128,5 +129,6 @@ class EventDetailActivity : AppCompatActivity(), DetailEventView {
     private fun cleanRapi(player: String?):String?{
         return  player?.replace(";","\n")
     }
+
 
 }
