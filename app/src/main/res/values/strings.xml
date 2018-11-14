@@ -10,7 +10,6 @@
     <string name="forward">Forwards</string>
     <string name="goals">Goals</string>
     <string name="shots">shots</string>
-    <string name="favorites">Favorites</string>
     <array name="league">
         <item>English Premier League</item>
         <item>English League Championship</item>

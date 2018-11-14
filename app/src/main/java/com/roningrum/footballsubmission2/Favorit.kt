@@ -1,6 +1,6 @@
 package com.roningrum.footballsubmission2
 
-data class Favorit(val idEvent: Long?,
+data class Favorit(val id: Long?,
                    val teamId: String?,
                    val teamHomeName: String?,
                    val teamAwayName: String?,
